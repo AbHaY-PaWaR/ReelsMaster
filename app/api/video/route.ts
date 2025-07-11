@@ -48,8 +48,8 @@ export async function POST(request: NextRequest){
        if (
          !body.title ||
          !body.description ||
-         !body.Videourl ||
-         !body.thumbnailurl
+         !body.videoUrl ||
+         !body.thumbnailUrl
          
        ) {
          return NextResponse.json(

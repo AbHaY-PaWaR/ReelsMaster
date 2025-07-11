@@ -19,7 +19,7 @@ export default function Home() {
     setVideos(data)
 
     } catch (error) {
-      console.log("Erroe fetching Videos" , error);
+      console.log("Error fetching Videos", error);
       
     }
    }
